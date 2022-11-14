@@ -18,6 +18,9 @@ public interface SocietaService {
 
 	public List<Societa> findByExample(Societa example);
 	
+	public List<Societa> cercaAllDistinctByDipendenti_reditoAnnuoLordoGreaterThan(int value);
+
+	
 	
 
 }
